@@ -94,7 +94,7 @@ total_ticket_price = filtered_df[ticket_price_column].sum()
 st.markdown(f'<div style="border: 2px solid #9d6b53; border-radius: 5px; padding: 10px; margin-bottom: 10px;">งบประมาณของคุณ: {budget}</div>', unsafe_allow_html=True)
 
 # แสดงค่าเข้าชมของแต่ละสถานที่ท่องเที่ยว
-st.write("ค่าเช้าชมแต่ละสถานที่")
+st.write("ค่าเข้าชมแต่ละสถานที่")
 for index, row in filtered_df.iterrows():
     st.write(f"{row['Name']}: {row[ticket_price_column]}")
 
