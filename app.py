@@ -82,7 +82,7 @@ for index, row in filtered_df.iterrows():
 if len(filtered_df) < count:
     st.warning('มีสถานที่ที่ต้องการแนะนำไม่เพียงพอต่อความต้องการ')
     count = len(filtered_df)
-st.info(f'มีสถานที่แนะนำ {count} สถานที่')
+#st.info(f'มีสถานที่แนะนำ {count} สถานที่')
 
 # เส้นแบ่ง
 st.markdown('<div style="background-color: #FFE5D9; border-radius: 5px; padding: 1px; margin-bottom: 5px;"></div>', unsafe_allow_html=True)
